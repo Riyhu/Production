@@ -10,9 +10,11 @@ namespace Production.Contracts
 {
     public interface IServiceManager
     {
-        Task<IEnumerable<Product>> GetProductById(bool trackChanges);
-        Task<ProductModel> AddNameModel(int id);
-        Task<ProductSubcategory> AddSubCategory(int id);
-        Task<bool> AddToCart(AddProductDTO addProductDTO);
+        Task<Product> AddProduct(AddProductDTO addProductDTO);
+        Task<AddEditCategoryProductDTO> AddCategoryProduct(AddEditCategoryProductDTO addCategoryProductDTO);
+        Task<AddEditCategoryProductDTO> UpdateCategoryProduct(int id, AddEditCategoryProductDTO editCategoryProductDTO);
+        Task<bool> DeleteFamilyCategoryProduct(int id, bool trackChanges);
+        Task<AddEditCategoryProductDTO> GetProductCategory(int id);
+        
     }
 }

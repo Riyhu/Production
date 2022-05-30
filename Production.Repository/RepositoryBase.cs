@@ -22,7 +22,7 @@ namespace Production.Repository
         }
 
         public void Create(T entity) => adventureContext.Set<T>().Add(entity);
-        public void Delete(T entity) => adventureContext.Set<T>().Add(entity);
+        public void Delete(T entity) => adventureContext.Set<T>().Remove(entity);
 
         public IQueryable<T> FindAll(bool trackChanges) =>
             !trackChanges ? adventureContext.Set<T>().AsNoTracking() : adventureContext.Set<T>();

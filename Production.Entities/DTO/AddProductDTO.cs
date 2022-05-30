@@ -12,7 +12,7 @@ namespace Production.Entities.DTO
         public string Name { get; set; }
         public string ProductNumber { get; set; }
         public string Color { get; set; }
-        public short SafelyStockLevel { get; set; }
+        public short SafetyStockLevel { get; set; }
         public short ReorderPoint { get; set; }
         public decimal ListPrice { get; set; }
         public decimal StandartCost { get; set; }

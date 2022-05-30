@@ -8,12 +8,14 @@ namespace Production.Contracts
 {
     public interface IRepositoryManager
     {
-        IProductRepository ProductRepository { get; }
-        //IAddProduct AddProduct { get; } 
-        IAddProd ProdukBaru { get; }
- //       ICOBA Nyoba { get; }
+        IProductRepository productRepository { get; }
+        IvProductRepository vProductRepository { get; }
+        IAddProductRepository Product { get; }
+        IProductModelRepository productModelRepository { get; }
+        IUnitMeasureRepository unitMeasureRepository { get; }
+        IProductSubCategoryRepository productSubCategoryRepository { get; }
+        IProductCategoryRepository productCategoryRepository { get; }
 
-//        IServiceManager ServiceManager { get; }
         void Save();
         Task SaveAsync();
     }

@@ -11,22 +11,33 @@ namespace Production.Repository
     public class RepositoryManager : IRepositoryManager
     {
         private AdventureContext _adventureContext;
+        private IvProductRepository _vproductRepository;
+        private IAddProductRepository _addProd;
         private IProductRepository _productRepository;
-        //private IAddProduct _addProduct;
-        private IAddProd _addProd;
-       // private ICOBA _coba;
-       // private IBARU _baru;
-      // private I
+        private IProductSubCategoryRepository _productSubCategoryRepository;
+        private IUnitMeasureRepository _unitMeasureRepository;
+        private IProductModelRepository _productModelRepository;
+        private IProductCategoryRepository _productCategoryRepository;
+
         public RepositoryManager(AdventureContext adventureContext)
         {
             _adventureContext = adventureContext;
         }
 
-
-
-
         //membuat objek ke memory... stiap program ada konstruktor, 
-        public IProductRepository ProductRepository
+        public IvProductRepository ProductRepository
+        {
+            get
+            {
+                if (_vproductRepository == null)
+                {
+                    _vproductRepository = new vProductRepository(_adventureContext);
+                }
+                return _vproductRepository;
+            }
+        }
+
+        public IProductRepository productRepository
         {
             get
             {
@@ -38,46 +49,76 @@ namespace Production.Repository
             }
         }
 
-        //public IAddProduct AddProduct
-        //{
-        //    get
-        //    {
-        //        if (_addProduct == null)
-        //        {
-        //            _addProduct = new AddProductRepository(_adventureContext);
-        //        }
-        //        return _addProduct;
-        //    }
-        //}
-
-        
-
-        public IAddProd ProdukBaru
+        public IAddProductRepository Product
         {
             get
             {
                 if (_addProd == null)
                 {
-                    _addProd = new AddProd(_adventureContext);
+                    _addProd = new AddProductRepository(_adventureContext);
                 }
                 return _addProd;
             }
         }
 
+        public IvProductRepository vProductRepository
+        {
+            get
+            {
+                if (_vproductRepository == null)
+                {
+                    _vproductRepository = new vProductRepository(_adventureContext);
+                }
+                return _vproductRepository;
+            }
+        }
 
-        //public ICOBA Nyoba
-        //{
-        //    get
-        //    {
-        //        if (_coba == null)
-        //        {
-        //            _coba = new COBA(_adventureContext);
-        //        }
-        //        return _coba;
-        //    }
-        //}
+        public IProductModelRepository productModelRepository
+        {
+            get
+            {
+                if (_productModelRepository == null)
+                {
+                    _productModelRepository = new ProductModelRepository(_adventureContext);
+                }
+                return _productModelRepository;
+            }
+        }
+        public IUnitMeasureRepository unitMeasureRepository
+        {
+            get
+            {
+                if (_unitMeasureRepository == null)
+                {
+                    _unitMeasureRepository = new UnitMeasureRepository(_adventureContext);
+                }
+                return _unitMeasureRepository;
+            }
+        }
 
+        public IProductSubCategoryRepository productSubCategoryRepository
+        {
+            get
+            {
+                if (_productSubCategoryRepository == null)
+                {
+                    _productSubCategoryRepository = new ProductSubCategoryRepository(_adventureContext);
+                }
+                return _productSubCategoryRepository;
+            }
+        }
 
+        public IProductCategoryRepository productCategoryRepository
+        {
+            get
+            {
+                if (_productCategoryRepository == null)
+                {
+                    _productCategoryRepository = new ProductCategoryRepository(_adventureContext);
+                }
+                return _productCategoryRepository;
+            }
+        }
 
         public void Save()
         {

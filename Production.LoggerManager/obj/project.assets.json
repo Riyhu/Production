@@ -6518,19 +6518,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\CODE.ID\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\nww\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
+      "projectUniqueName": "D:\\BackupProductionRyoKamal\\backupKamal\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
       "projectName": "Production.LoggerService",
-      "projectPath": "D:\\nww\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\nww\\AdventureProduction-main\\Production.LoggerManager\\obj\\",
+      "projectPath": "D:\\BackupProductionRyoKamal\\backupKamal\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
+      "packagesPath": "C:\\Users\\CODE.ID\\.nuget\\packages\\",
+      "outputPath": "D:\\BackupProductionRyoKamal\\backupKamal\\AdventureProduction-main\\Production.LoggerManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CODE.ID\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6544,8 +6544,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj": {
-              "projectPath": "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj"
+            "D:\\BackupProductionRyoKamal\\backupKamal\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj": {
+              "projectPath": "D:\\BackupProductionRyoKamal\\backupKamal\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj"
             }
           }
         }
@@ -6580,7 +6580,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

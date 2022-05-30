@@ -12,6 +12,9 @@ namespace ProductionWebApi.Mapping
             CreateMap<Product, ProductDTO>().ReverseMap();
             CreateMap<vSearchProduct, ProductDTO>().ReverseMap();
             CreateMap<Product, AddProductDTO>().ReverseMap();
+            CreateMap<Product, UpdateProductDTO>().ReverseMap();
+            CreateMap<AddEditCategoryProductDTO, ProductCategory>().ReverseMap();
+            CreateMap<AddEditCategoryProductDTO, ProductSubcategory>().ReverseMap();
         }
     }
 }

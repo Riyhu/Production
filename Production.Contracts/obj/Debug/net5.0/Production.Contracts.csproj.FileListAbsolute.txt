@@ -73,3 +73,48 @@ D:\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production
 D:\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\refint\Production.Contracts.dll
 D:\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.pdb
 D:\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\ref\Production.Contracts.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.deps.json
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.pdb
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.pdb
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.AssemblyReference.cache
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfoInputs.cache
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfo.cs
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CopyComplete
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\refint\Production.Contracts.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.pdb
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\ref\Production.Contracts.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.deps.json
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.pdb
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.pdb
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.AssemblyReference.cache
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfoInputs.cache
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfo.cs
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CoreCompileInputs.cache
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CopyComplete
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\refint\Production.Contracts.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.pdb
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\ref\Production.Contracts.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.deps.json
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.pdb
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.pdb
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.AssemblyReference.cache
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfoInputs.cache
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfo.cs
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CoreCompileInputs.cache
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CopyComplete
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\refint\Production.Contracts.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.pdb
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\ref\Production.Contracts.dll

@@ -83,3 +83,54 @@ D:\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Produc
 D:\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\refint\Production.LoggerService.dll
 D:\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.pdb
 D:\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\ref\Production.LoggerService.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.deps.json
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.pdb
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.pdb
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.pdb
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.AssemblyReference.cache
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfoInputs.cache
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfo.cs
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CopyComplete
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\refint\Production.LoggerService.dll
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.pdb
+C:\Bootcamp\Kamal PAGI !!!!\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\ref\Production.LoggerService.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.deps.json
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.pdb
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.pdb
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.pdb
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.AssemblyReference.cache
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfoInputs.cache
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfo.cs
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CoreCompileInputs.cache
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CopyComplete
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\refint\Production.LoggerService.dll
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.pdb
+C:\Bootcamp\LASTTTTTTTTTTTTTTTTTTTT!!\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\ref\Production.LoggerService.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.deps.json
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.pdb
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.pdb
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.pdb
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.AssemblyReference.cache
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfoInputs.cache
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfo.cs
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CoreCompileInputs.cache
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CopyComplete
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\refint\Production.LoggerService.dll
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.pdb
+D:\BackupProductionRyoKamal\backupKamal\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\ref\Production.LoggerService.dll

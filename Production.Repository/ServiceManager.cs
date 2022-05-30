@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using Production.Contracts;
+﻿using Production.Contracts;
 using Production.Entities.DTO;
 using Production.Entities.Models;
 using System;
@@ -13,78 +12,148 @@ namespace Production.Repository
     public class ServiceManager : IServiceManager
     {
         private readonly IRepositoryManager _repositoryManager;
-        private readonly ILoggerManager _logger;
-        private readonly IMapper _mapper;
+        private readonly ILoggerManager _loggerManager;
 
-        public ServiceManager(IRepositoryManager repositoryManager)
+        public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager loggerManager)
         {
             _repositoryManager = repositoryManager;
+            _loggerManager = loggerManager;
         }
 
-        public Task<ProductModel> AddNameModel(int id)
+        public async Task<AddEditCategoryProductDTO> GetProductCategory(int id)
         {
-            throw new NotImplementedException();
-        }
+            var category = await _repositoryManager.productCategoryRepository.GetProductCategoryByID(id, trackChanges : true);
+           
+            IEnumerable<ProductSubcategory> subcategory = _repositoryManager.productSubCategoryRepository.GetAllProductSubCategory(trackChanges: true)
+               .Result.Where(c => c.ProductCategoryID == id);
 
-        public Task<ProductSubcategory> AddSubCategory(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<bool> AddToCart(AddProductDTO addProductDTO)
-        {
-            try
+            if (category == null)
             {
-                var cart = await _repositoryManager.ProdukBaru.GetProductByID(addProductDTO.ProductID, trackChanges: true);
-                if (cart ==null)
+                _loggerManager.LogError($"Category Product with id : {id} not found");
+            }
+
+            AddEditCategoryProductDTO subDTO = new AddEditCategoryProductDTO();
+
+            subDTO.ProductCategoryID = category.ProductCategoryID; 
+            subDTO.Name = category.Name;
+
+            List<string> nameSub = new List<string>();
+
+            foreach (var item in subcategory)
+            {
+                nameSub.Add(item.Name);
+            }
+
+            subDTO.SubCategoryName = nameSub;
+
+            return subDTO;
+        }
+
+        public async Task<AddEditCategoryProductDTO> AddCategoryProduct(AddEditCategoryProductDTO addCategoryProductDTO)
+        {
+            ProductCategory category = new ProductCategory(){
+                Name = addCategoryProductDTO.Name
+            };
+
+            _repositoryManager.productCategoryRepository.CreateProductCategory(category);
+            await _repositoryManager.SaveAsync();
+            var cateResult = category;
+
+            foreach (var sub in addCategoryProductDTO.ProductSubCategories)
+            {
+                ProductSubcategory subcategory = new ProductSubcategory() { 
+                    ProductCategoryID = cateResult.ProductCategoryID,
+                    Name = sub.Name
+                };
+                _repositoryManager.productSubCategoryRepository.CreateProductSubCategory(subcategory);
+                await _repositoryManager.SaveAsync();
+            }
+            return addCategoryProductDTO;
+        }
+
+        public async Task<AddEditCategoryProductDTO> UpdateCategoryProduct(int id, AddEditCategoryProductDTO editCategoryProductDTO)
+        {
+            var categoryEntity = await _repositoryManager.productCategoryRepository.GetProductCategoryByID(id, trackChanges: true);
+            categoryEntity.Name = editCategoryProductDTO.Name;
+            if (categoryEntity == null)
+            {
+                _loggerManager.LogError($"Category Product with id : {id} not found");
+            }
+            //await _repositoryManager.SaveAsync();
+
+            foreach (var sub in editCategoryProductDTO.ProductSubCategories)
+            {
+                try
                 {
-                    Product product = new Product();
-                    product.Name = addProductDTO.Name;
-                    product.ProductNumber = addProductDTO.ProductNumber;
-                    product.Color = addProductDTO.Color;
-                    product.SafetyStockLevel = addProductDTO.SafelyStockLevel;
-                    product.ListPrice = addProductDTO.ListPrice;
-                    product.StandardCost = addProductDTO.StandartCost;
-                    product.Size = addProductDTO.Size;
-                    product.SizeUnitMeasureCode = addProductDTO.unitMeasure;
-                    product.WeightUnitMeasureCode = addProductDTO.WeightType;
-                    product.Weight = addProductDTO.Weight;
-                    product.DaysToManufacture = addProductDTO.DaytoManufacture;
-                    product.ProductLine = addProductDTO.ProductLine;
-                    product.Class = addProductDTO.Class;
-                    product.Style = addProductDTO.Style;
-                    product.ProductSubcategoryID = addProductDTO.SubCategoryID;
-                    product.ProductModelID = addProductDTO.ProductModelID;
-                    product.MakeFlag = addProductDTO.MakeFlag;
-                    product.FinishedGoodsFlag = addProductDTO.FinishedFlag;
-                    product.SellStartDate = addProductDTO.SellStartDate;
-                    product.SellEndDate = addProductDTO.SellEndDate;
-                    product.DiscontinuedDate = addProductDTO.Discontinue;
-                    _repositoryManager.ProdukBaru.Create(product);
+                    var subCateEntity = await _repositoryManager.productSubCategoryRepository.GetProductSubCategoryByID(sub.ProductSubcategoryID, trackChanges: true);
+
+                    if (subCateEntity == null)
+                    {
+                        var subcateModel = new ProductSubcategory();
+
+                        subcateModel.ProductSubcategoryID = sub.ProductSubcategoryID;
+                        subcateModel.Name = sub.Name;
+                        subcateModel.ProductCategoryID = sub.ProductCategoryID;
+
+                        _repositoryManager.productSubCategoryRepository.CreateProductSubCategory(subcateModel);
+                    }
+                    else
+                    {
+                        subCateEntity.Name = sub.Name;
+                        subCateEntity.ProductCategoryID = sub.ProductCategoryID;
+                        _repositoryManager.productSubCategoryRepository.UpdateProductSubCategory(subCateEntity);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    _loggerManager.LogError($"Error when insert into SubCategories {ex.Message}");
+                }
+            }
+            await _repositoryManager.SaveAsync();
+            return editCategoryProductDTO;
+        }
+        public async Task<bool> DeleteFamilyCategoryProduct(int id, bool trackChanges)
+        {
+            var category = await _repositoryManager.productCategoryRepository.GetProductCategoryByID(id, trackChanges: true);
+            IEnumerable<ProductSubcategory> subcategory = _repositoryManager.productSubCategoryRepository.GetAllProductSubCategory(trackChanges: true)
+                .Result.Where(c => c.ProductCategoryID == id);
+
+            //List<string> tampung = new List<string>();
+            if ( subcategory != null)
+            {
+                foreach (var item in subcategory)
+                {
+                    _repositoryManager.productSubCategoryRepository.DeleteProductSubCategory(item);
                     await _repositoryManager.SaveAsync();
                 }
-                return true;
             }
-            catch (Exception w)
-            {
-                _logger.LogInfo($"{w.Message}");
-                return false;
-            }
+
+            _repositoryManager.productCategoryRepository.DeleteProductCategory(category);
+            await _repositoryManager.SaveAsync();
+            
+            
+            return true;
         }
 
-        public Task<IEnumerable<Product>> GetProductById(bool trackChanges)
+        public Task<Product> AddProduct(AddProductDTO addProductDTO)
         {
-            throw new NotImplementedException();
-            //IEnumerable<Product> products1 = null;
-            //try
-            //{
-            //    IEnumerable<Product> products = _repositoryManager.ProductRepository.(trackChanges: false);
-            //    return Tuple.Create(1, products, "Suksses");
-            //}
-            //catch (Exception e)
-            //{
-            //    return Tuple.Create(-1, products1, e.Message);
-            //}
+            throw new InvalidOperationException("Logfile cannot be read-only");
         }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
     }
 }
